@@ -4,11 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "#2E1A47", // Deep purple gradient start
-        backgroundDark: "#140D26", // Deep purple gradient end
+        background: "#10092D",
+        backgroundDark: "#331E58", // Deep purple gradient end
         title: "#50E3C2", // Bright turquoise for headings
         text: "#EAEAEA", // Soft white for readability
         accent: "#00C3FF", // Neon blue for buttons & highlights
+      },
+      fontFamily: {
+        metalMania: ["Metal Mania", "cursive"],
+        inconsolata: ["Inconsolata", "monospace"],
       },
     },
   },
