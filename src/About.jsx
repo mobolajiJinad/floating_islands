@@ -21,11 +21,7 @@ const About = () => {
       ></div>
 
       <header className="border-accent mx-auto flex w-11/12 items-center justify-between rounded-lg border bg-transparent p-2">
-        <img
-          src="https://tectra.site/assets/img/logo.webp"
-          alt="logo"
-          className="w-2/3"
-        />
+        <h1 className="font-bold">floating islands logo</h1>
 
         <button
           onClick={() => setIsOpen(!isOpen)}
