@@ -21,7 +21,7 @@ const About = () => {
       ></div>
 
       <header className="border-accent mx-auto flex w-11/12 items-center justify-between rounded-lg border bg-transparent p-2">
-        <h1 className="font-bold">floating islands logo</h1>
+        <h1 className="font-bold text-text text-lg">floating islands logo</h1>
 
         <button
           onClick={() => setIsOpen(!isOpen)}
